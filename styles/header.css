@@ -1,0 +1,61 @@
+.cabecalho {
+    align-items: center;
+    max-width: 100vw; 
+    background-color: var(--background-header);
+    border-radius: 0 0 24px 24px;
+}
+
+.cabecalho__perfil {
+    display: flex;
+    padding: 1em;
+    width: 100%; 
+    max-width: 100%; 
+    box-sizing: border-box; 
+}
+
+.cabecalho__nome {
+    font-size: 24px;
+    color: var(--font-color-principal);
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    padding-bottom: 0.5em;
+}
+
+.cabecalho__especialidades {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.cabecalho__foto {
+    width: 20%;
+    object-fit: cover;
+    border: 3px solid var(--background-link);
+    border-radius: 24px;
+}
+
+.cabecalho__informacoes {
+    color: var(--font-color-secundaria);
+    padding: 1em;
+}
+
+.cabecalho__redes {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%; 
+    margin: 0 2em;
+}
+
+.cabecalho__redes__item {
+    background-color: var(--background-link);
+    border: 1px solid var(--background-color);
+    border-radius: 8px;
+    padding: 0.5em 1em;
+}
+
+.cabecalho__redes__link {
+    text-decoration: none;
+    color: white;
+}

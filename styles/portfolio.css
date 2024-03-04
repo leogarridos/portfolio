@@ -1,0 +1,34 @@
+.container__portfolio {
+    max-width: 100vw; 
+}
+
+.portfolio__lista {
+    width: 100%;
+    max-width: 100%; 
+    box-sizing: border-box; 
+}
+
+.portfolio__titulo {
+    font-size: 22px;
+    color: var(--font-color-principal);
+    padding: 0 1em 1em 1em;
+}
+
+
+
+.portfolio__lista__item img {
+    margin: 0 1em 1em 1em;
+    max-width: calc(100vw - 2em - 6px); 
+    height: auto; 
+    border: 3px solid var(--background-border);
+    border-radius: 24px;
+}
+
+.lista__item__texto {
+    font-size: 18px;
+    color: var(--font-color-principal);
+    margin: 0 1em;
+    padding-bottom: 0.3em;
+    text-align: center;
+}
+

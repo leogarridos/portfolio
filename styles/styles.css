@@ -1,0 +1,19 @@
+@import url(header.css);
+@import url(exp.css);
+@import url(footer.css);
+@import url(portfolio.css);
+
+:root {
+    --background-color: #1b2b47;
+    --background-header: #2b4470;
+    --background-border: #274579;
+    --background-elemento: #172336;
+    --background-link: #0095f7;
+    --font-color-principal: #FFFFFF;
+    --font-color-secundaria: #D9D9D9;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
