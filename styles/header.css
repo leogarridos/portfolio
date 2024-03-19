@@ -14,7 +14,7 @@
 }
 
 .cabecalho__nome {
-    font-size: 24px;
+    font-size: 5vw;
     color: var(--font-color-principal);
     text-align: center;
     font-weight: 700;
@@ -23,7 +23,7 @@
 }
 
 .cabecalho__especialidades {
-    font-size: 16px;
+    font-size: 3.5vw;
     text-align: center;
     font-weight: 400;
 }
@@ -38,6 +38,8 @@
 .cabecalho__informacoes {
     color: var(--font-color-secundaria);
     padding: 1em;
+    width: 100%;
+
 }
 
 .cabecalho__redes {
@@ -51,11 +53,42 @@
 .cabecalho__redes__item {
     background-color: var(--background-link);
     border: 1px solid var(--background-color);
-    border-radius: 8px;
+    border-radius: 16px;
     padding: 0.5em 1em;
+    font-size: 3.5vw;
 }
 
 .cabecalho__redes__link {
     text-decoration: none;
     color: white;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .cabecalho {
+        display: flex;
+    }
+    .cabecalho__redes {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .cabecalho__redes__item {
+        font-size: 2vw;
+        margin: 0.3em;
+        text-align: center;
+    }
+    .cabecalho__nome {
+        font-size: 3.5vw;
+        
+    }
+    .cabecalho__especialidades {
+        font-size: 2.5vw;
+    }
+    .cabecalho__perfil {
+        justify-content: center;
+        align-items: center;
+    }
+    
 }

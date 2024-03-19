@@ -22,3 +22,20 @@ body {
     font-family: var(--font-principal);
 }
 
+
+@media screen and (min-width: 1024px) {
+
+    .container__macro {
+        display: flex;
+    }
+
+    .container__exp {
+        max-width: 40%;
+    }
+
+    .container__portfolio {
+        max-width: 60%;
+    }
+
+}
+
