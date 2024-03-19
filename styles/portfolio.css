@@ -37,12 +37,13 @@
 @media screen and (min-width: 1024px) {
 
     .portfolio__titulo {
-        font-size: 3vw;
+        font-size: 2.5vw;
         text-align: center;
     }
 
     .lista__item__texto {
-        font-size: 2.5vw;
+        font-size: 1.3vw;
+        font-weight: 700;
     }
 
     .portfolio__lista__item img {

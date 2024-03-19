@@ -12,3 +12,11 @@
     width: 100%;
     color: var(--font-color-principal);
 }
+
+@media screen and (min-width: 1024px) {
+
+    .footer__texto {
+        font-size: 1vw;
+    }
+
+}
